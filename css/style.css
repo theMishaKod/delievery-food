@@ -173,7 +173,7 @@ body {
   flex-wrap: wrap;
 }
 
-.raiting {
+.rating {
   margin-right: 26px;
   color: #FFC107;
   font-style: normal;
@@ -261,7 +261,7 @@ body {
     background: center -100px right;
   }
 
-  .raiting {
+  .rating {
     margin-right: 15px;
   }
 
@@ -284,5 +284,27 @@ body {
   .promo-text {
     font-size: 16px;
     max-width: 400px;
+  }
+
+  .card {
+    flex-basis: 49%;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+
+  .card-info {
+    flex-wrap: wrap;
+  }
+
+  .rating {
+    flex-basis: 100%;
   }
 }
