@@ -307,4 +307,23 @@ body {
   .rating {
     flex-basis: 100%;
   }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .promo-title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .promo {
+    background-size: 490px;
+  }
+
+  .promo-text {
+    max-width: 350px;
+    margin-top: 0;
+  }
 }
