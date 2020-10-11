@@ -63,6 +63,7 @@ body {
   color: #595959;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .button-primary {
@@ -79,7 +80,7 @@ body {
 /* FIRST SECTION */
 .promo {
   filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
-  background: #FFF1B8 url("../img/promo-image.png") no-repeat top -100px right -300px /950px;
+  background: #FFF1B8 url("../img/promo-image.png") no-repeat top -250px right -300px /950px;
   border-radius: 10px;
   padding: 68px 70px;
   margin-bottom: 56px;
@@ -366,24 +367,29 @@ body {
   }
 
   .footer-block {
-    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-nav {
     order: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 
   .footer-link {
     font-size: 12;
     line-height: 1.1;
+    margin-right: 0;
   }
 
   .footer-logo {
     margin-right: 15px;
-    order: 1;
+    order: 0;
+    margin-bottom: 20px;
   }
 
   .social-links {
@@ -410,25 +416,5 @@ body {
 
   .promo {
     padding: 20px;
-  }
-
-  .footer-block {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-logo {
-    order: 0;
-    margin-bottom: 20px;
-  }
-
-  .footer-nav {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .footer-link {
-    margin-right: 0;
   }
 }
